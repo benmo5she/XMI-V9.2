@@ -70,6 +70,7 @@ namespace XMI
             rfile.Close();
             List<Button> bt = buttons1.Controls.OfType<Button>().ToList();
             //bt = bt.OrderBy(Button => Button.Text).ToList();
+            //ttest1
             bt = bt.OrderBy(Button => Button.Name.Substring(6)).ToList();
             //MessageBox.Show(Properties.Settings.Default.Buttons[0]);
             //MessageBox.Show("Hello");
@@ -91,6 +92,7 @@ namespace XMI
                     //MessageBox.Show(button.Text);
                 }
                     //button.MouseDown += new MouseEventHandler(changeFave);
+                    //ANOTHER TEST
                     i++;
             });
             bt = buttons2.Controls.OfType<Button>().ToList();

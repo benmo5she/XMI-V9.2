@@ -52,7 +52,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="RibbonMenuButtonControl">
-      <HintPath>..\..\RibbonMenuButtonClass\RibbonMenuButtonControl.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\dev\XMLBuilder - Copy\XMLBuilder\bin\Release\RibbonMenuButtonControl.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
